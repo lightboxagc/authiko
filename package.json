@@ -1,0 +1,20 @@
+{
+  "name": "@vlhsmylv/authiko",
+  "version": "0.0.0",
+  "description": "Seamless authentication integration ✨",
+  "main": "dist/authiko/index.js",
+  "types": "dist/authiko/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^10.0.0",
+    "@nestjs/core": "^10.0.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "Valeh Ismayilov",
+  "license": "MIT"
+}
